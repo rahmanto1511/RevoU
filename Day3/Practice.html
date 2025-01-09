@@ -1,0 +1,119 @@
+<html>
+    <head>
+        <title>Practice_Day3</title>
+        <style>
+            .container {
+                border:1px solid black;
+                display: flex;
+                justify-content: flex-end;
+                padding: 10px 50px 10px 0px;
+                
+            }
+            .container > div {
+                text-align: center;
+                font-size: 14sp;
+                border: 1px solid black;
+                padding: 5px 15px 0px 15px;
+            }
+            .image {
+                margin: auto auto auto 10px;
+            }
+            .form {
+                margin-bottom: 5px;
+                display: flex;
+                text-align: left;
+            }
+            .form > input, textarea {
+                align-content: right;
+                display: flex;
+                justify-content: flex-end;
+            }
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                text-align: center;
+            }
+            th {
+                background-color: lightgray;
+            }
+            th, td {
+                padding: 10px 10px 10px 10px;
+            }
+            footer {
+                text-align: right;
+                border: 1px solid black;
+                margin-top: 30px;
+                padding: 20px 10px 20px 0px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav class="container">
+            <image src=" " alt="logo" widht="30px" height="30px" class="image"></image>
+            <div class="home">Home</div>
+            <div class="profile">My Profile</div>
+            <div class="portofolio">Portofolio</div>
+            <div class="massage">Massage Us</div>
+        </nav>
+        <header style="margin-left: 50px;">
+            <h1>Form Belajar</h1>
+            <p>Ini adalah website latihan pertama</p>
+        </header>
+        <main style="flex-direction: row; display: flex; padding-left: 50px; padding-right: 50px;">
+            <div style="display: flex; flex: 1; align-content: left; justify-content: left; flex-direction: column;">
+                <div class="form" id="nama">Nama &emsp;&emsp;&emsp;&nbsp;: <input type="text"></div>
+                <div class="form" id="lahir">Tanggal Lahir : <input type="date"></div>
+                <div class="form" id="kelamin">Jenis Kelamin : <input type="radio" name="kelamin"> Laki-Laki</input><input type="radio" name="kelamin"> Perempuan</input></div>
+                <div class="form" id="pesan">Pesan &emsp;&emsp;&emsp;&nbsp;: <textarea></textarea></div>
+                <div class="form" id="submit"><input type="button" value="Submit"></div>
+            </div>
+            <div style="display: flex; flex: 1; align-content: center; justify-content: center;">
+                <table>
+                    <tr>
+                        <th>Nama</th>
+                        <th>Tanggal Lahir</th>
+                        <th>Jenis Kelamin</th>
+                        <th>Pesan</th>
+                        <th>Profile</th>
+                        <th>Delete</th>
+                    </tr>
+                    <tr>
+                        <td>Ada Loveiace</td>
+                        <td>December 10, 1815</td>
+                        <td>Perempuan</td>
+                        <td>Belajar Buat Website</td>
+                        <td><a href=" ">Klik Disini</a></td>
+                        <td><image src="" alt="del" widht="10px" height="20px" border="1px solid black"></image></td>
+                    </tr>
+                    <tr>
+                        <td>Grace Hopper</td>
+                        <td>December 9, 1906</td>
+                        <td>Perempuan</td>
+                        <td>Hello World</td>
+                        <td><a href=" ">Klik Disini</a></td>
+                        <td><image src="" alt="del" widht="10px" height="20px" border="1px solid black"></image></td>
+                    </tr>
+                    <tr>
+                        <td>Margaret  Hamilton</td>
+                        <td>August 17, 1936</td>
+                        <td>Perempuan</td>
+                        <td>Test Dulu</td>
+                        <td><a href=" ">Klik Disini</a></td>
+                        <td><image src="" alt="del" widht="10px" height="20px" border="1px solid black"></image></td>
+                    </tr>
+                    <tr>
+                        <td>Joan Clarke</td>
+                        <td>June 24, 1917</td>
+                        <td>Laki-Laki</td>
+                        <td>Selalu Semangat</td>
+                        <td><a href=" ">Klik Disini</a></td>
+                        <td><image src="" alt="del" widht="10px" height="20px" border="1px solid black"></image></td>
+                    </tr>
+                </table>
+            </div>
+        </main>
+        <footer>
+            Content by Rahmanto - RevoU 2025
+        </footer>
+    </body>
+</html>

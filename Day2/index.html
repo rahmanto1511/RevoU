@@ -1,0 +1,110 @@
+<html>
+    <head>
+        <title>Day2</title>
+    </head>
+    <body>
+        <h1 style="color:green;">Hi!</h1>
+        <p>Paragraf.</p>
+        <hr> <!--horizontal line-->
+        Ini baris 1
+        <br> <!--enter line-->
+        Ini baris 2
+        <hr>
+        <p><b>Bold</b></p>
+        <p><i>Italic</i></p>
+        <p>Text<sub>Sub</sub></p>
+        <p>Text<sup>Sup</sup></p>
+        <hr>
+        <h1>List:</h1>
+        <ul>
+            <li>Satu</li>
+            <li>Dua</li>
+        </ul>
+        <hr>
+        <ol>
+            <li>Satu</li>
+            <li>Dua</li>
+        </ol>
+        <hr>
+        <table border="1px solid black">
+            <tr>
+                <th>Company</th> <!--table head(text bold)-->
+                <th>Country</th>
+            </tr>
+            <tr>
+                <td>Indonesia</td> <!--table data-->
+                <td>Mexico</td>
+            </tr>
+        </table>
+        <hr>
+        <table border="1px solid black">
+            <tr>
+                <th rowspan="2">Company</th> <!--table head(text bold)-->
+                <td>Indonesia</td>
+            </tr>
+            <tr>
+                <td>Indonesia</td> <!--table data-->
+            </tr>
+        </table>
+        <hr>
+        <table border="1px solid black">
+            <tr>
+                <th colspan="2">Country</th>
+            </tr>
+            <tr>
+                <td>Indonesia</td> <!--table data-->
+                <td>Mexico</td>
+            </tr>
+        </table>
+        <hr>
+        <image src="Screenshot1.png" alt="tes satu" widht="800px" height="400px" border="1px solid black"></image>
+        <hr>
+        <form action="" method="post">
+            <label for="name">Nama:</label>
+            <input id="name" type="text">
+            <br>
+            <input type="password" required>
+            <br>
+            <input type="checkbox">
+            <br>
+            <input type="radio">
+            <br>
+            <input type="number" min="0" max="10">
+            <br>
+            <textarea rows="8" cols="64">Ketik disini</textarea>
+            <br>
+            <input type="submit" value="OK"> 
+        </form>
+        <hr>
+        <button type="button">
+            OK
+        </button>
+        <button type="button" onclick="doSomething();">
+            Apply
+        </button>
+        <hr>
+        <select>
+            <optgroup label="Angka">
+                <option>Satu</option>
+                <option>Dua</option>
+            </optgroup>
+            <optgroup label="Lanjut">
+                <option>Tiga</option>
+                <option>Empat</option>
+            </optgroup>
+        </select>
+        <hr>
+        <fieldset>
+            <legend>Silahkan di isi</legend>
+            <p>
+                <label for="nama">Nama:</label>
+                <input type="text" name="nama">
+            </p>
+            <p>
+                <label for="usia">Usia:</label>
+                <input type="number" min="0" name="usia">
+            </p>
+        </fieldset>
+        <hr>
+    </body>
+</html>
