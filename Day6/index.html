@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>Day6</title>
+        <style>
+
+        </style>
+    </head>
+    <body>
+        <h1> Hi <span id="nama">User</span> Welcome to my web!</h1>
+        <p>This is a paragraph</p>
+        <!--button id="ganti">Ganti Nama</button-->
+
+        <form>
+            <input type="text" placeholder="nama anda" id="in-nama">
+            <button id="submit">Kirim</button>
+            <p id="eror"></p>
+        </form>
+
+        <script>
+            function replaceName() {
+                const nama=prompt("Hi! Whats your name?");
+                document.getElementById('nama').innerHTML = nama;
+            }
+            replaceName();
+            //document.getElementById('ganti').addEventListener("click", function() {replaceName();});
+
+            let innama = document.getElementById('in-nama');
+            document.getElementById('submit').addEventListener("click", function() {
+                const nama = innama.value;
+                if(nama=="") {
+                    document.getElementById('eror').innerHTML = "Tidak boleh kosong";
+                } else {
+                    document.getElementById('name').innerHTML = nama;
+                }
+                
+            })
+        </script>
+    </body>
+</html>
